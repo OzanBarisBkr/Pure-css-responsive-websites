@@ -1,0 +1,52 @@
+html{
+	font-size: 16px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";}
+	:focus{
+		outline: 0;
+	}
+
+form{
+	max-width: 300px;
+	margin: 50px auto;
+	min-width: 300px;
+}
+.form label{
+	display: block;
+	margin-bottom: 10px;
+}
+.kapsayici{
+	margin-bottom: 25px;
+}
+.form-eleman{
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 5px;
+	background-color: #fff;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, .2);
+}
+.form-eleman:focus{
+	
+	border: 3px solid rgba(24,144,255,1.00);
+}
+.radio + .radio{
+	margin-left: 20px;
+}
+form textarea{
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 50px;
+	max-height: 70px;
+}
+.button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#button{
+	width: 60%;
+	text-align: center;
+	border: none;
+	background-color: rgba(24,144,255,1.00);
+	color: white;
+}
