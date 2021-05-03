@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>3d-tasarım</title>
+	<style>
+		*{box-sizing: border-box;}
+		body{
+			background: black;
+		}
+		.container{
+			width: 600px;
+			margin: 250px auto;
+			perspective: 300px;
+			
+		}
+		.kup{
+			width: 300px;
+			height: 300px;
+			margin: 50px auto;
+			position: relative;
+			transform: rotate3d(1,1,1,100deg);
+			transform-style: preserve-3d;
+			
+			
+			
+		}
+		.kenar{
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			background: #000;
+			text-align: center;
+			color: white;
+			font-size: 70px;
+			line-height: 200px;
+			border: 15px solid white;
+			perspective: 100px;
+			opacity: 0.7;
+		}
+		.on{
+			transform: rotateY(0) translateZ(100px);
+		}
+		.arka{
+			transform: rotateY(180deg) translateZ(100px);
+		}
+		.sag{
+			transform: rotateY(90deg) translateZ(100px);
+		}
+		.sol{
+			transform: rotateY(-90deg) translateZ(100px);
+		}
+		.ust{
+			transform: rotateX(90deg) translateZ(100px);
+		}
+		.alt{
+			transform: rotateX(-90deg) translateZ(100px);
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="kup">
+			<div class="kenar on">1</div>
+			<div class="kenar arka">2</div>
+			<div class="kenar sag">3</div>
+			<div class="kenar sol">4</div>
+			<div class="kenar ust">5</div>
+			<div class="kenar alt">6</div>
+		</div>
+	</div>
+</body>
+</html>

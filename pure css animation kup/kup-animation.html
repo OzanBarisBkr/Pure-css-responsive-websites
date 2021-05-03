@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		/*img{
+			background-size: cover;
+			width: 150px;
+			height: 150px;
+			display: block;
+			margin: 100px auto;
+			transition: .8s;
+			opacity: 60%;
+		}
+		img:hover{
+			transform-origin:center;
+			transform: rotate(45deg);
+			opacity: 100%;
+		}*/
+		.kutu{
+			width: 100px;
+			height: 100px;
+			background: brown;
+			position: relative;
+			animation-name: hola;
+			animation-direction:alternate;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+			
+		}
+		@keyframes hola{
+			0%{
+				background: brown; left: 0; top: 0px; opacity: 25%; transform:
+			}
+			25%{
+				background: yellow; left:500px; top: 0; opacity: 50%; transform: rotate(45deg);
+			}
+			50%{
+				background: green; left: 500px; top: 500px; opacity: 75%; transform: rotate(90deg);
+			}
+			75%{
+				background: purple; left: 0; top:500px; opacity: 85%; transform: rotate(135deg);
+			} 
+			100%{
+				background: gray; left:0; top: 0; opacity: 100%; transform: rotate(180deg);
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="kutu"><!--<img src="../wp1892029.jpg" alt="madara">--></div>
+</body>
+</html>
