@@ -76,7 +76,7 @@ body{
 	margin-bottom: 20px;
 }
 .bolum1-section p{
-	font-size: 1.5vw;
+	font-size: 1.5em;
 	font-weight: 300;
 	color: #aaa;
 	line-height: 40px;
@@ -100,6 +100,12 @@ body{
 	.bolum1 nav ul li{
 		margin-right: 25px;
 	}
+	.bolum1-section{
+		width: 90%;
+	}
+	.bolum1-section br{
+		display: none;
+	}
 	.bolum1-section h1{
 		font-size: 5vh;
 	}
@@ -115,8 +121,15 @@ body{
 		margin-left: 0px;
 		padding: 0px;
 	}
+	.bolum1-section{
+		width: 90%;
+	}
 	.bolum1-section label{
 		display: none;
+	}
+	.bolum1-section a{
+		width: 100%;
+		margin: 0px -20px;
 	}
 }
      /*--------- 2. Bölüm ------------*/
