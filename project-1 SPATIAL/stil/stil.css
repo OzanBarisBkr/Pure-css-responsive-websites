@@ -442,6 +442,9 @@ body{
 	background: #FF0047;
 }
 @media screen and (max-width:768px){
+	.bolum5-container{
+		width: 90%;
+	}
 	.bolum5-container h3{
 		font-size: 1.7em;
 	}
@@ -449,6 +452,7 @@ body{
 		font-size: 0.9em;
 		margin-bottom: 40px;
 	}
+	
 }
 /* -------   --6.Bölüm-footer- --------- */
 
